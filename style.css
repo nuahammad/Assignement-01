@@ -1,0 +1,142 @@
+body {
+  /* margin: 0; */
+  font-family: "Roboto", sans-serif;
+}
+
+.main-section {
+     
+  width: 900px;
+  height: 400px;
+  margin: 150px 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+ 
+}
+
+.image {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+
+.circle {
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+h1.black-bold {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h1.orange-bold {
+  font-size: 35px;
+  font-weight: bold;
+  color: orange;
+}
+
+.btn {
+  background-color: orangered;
+  color: white;
+  padding: 8px 33px;
+  font-size: 17px;
+  margin-top: 40px;
+  border-radius: 13px;
+}
+
+.project-section h1{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size : 30px;
+}
+
+.project{
+  display: grid;
+  grid-template-columns: 100px 100px ;
+
+}
+
+.leatest-project{
+  border: 0px solid green;
+}
+.container{
+  /* background-color: bisque; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  grid-gap: 40px; 
+  padding: 0 161px;
+}
+
+.container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 23px;
+
+}
+
+.container h3{
+  text-align: center;
+  color: purple;
+  font-size: 20px;
+}
+.container p{
+  text-align: center;
+  font-weight: bold;
+}
+
+section.background{
+  background-color: whitesmoke;
+  padding: 40px;
+  height: 500px;
+  
+}
+.footer-text{
+ 
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  grid-gap: 25px; 
+  margin-top: 90px;
+  
+
+}
+footer{
+  background-color: rgb(20, 20, 142);
+  padding-bottom: 20px;
+  
+}
+.footer-text img{
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+   
+}
+
+/* .end-footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  grid-gap: 25px; 
+  align-items: center; 
+}
+*/
+  
+ .playstore-image img{
+   width: 195px;
+   height: auto;
+   padding: 0 103px
+ }
+ .playstore-image p{
+   text-align: center;
+   color: white;
+   font-weight: bold;
+ }
